@@ -158,9 +158,9 @@
                         <td><?php echo $res['salary'] ?></td>
                         <td>
                             <div class="icon d-flex">
-                                <a href=""><i class="fas fa-eye"></i></a>
-                                <a href="" class="mx-4"><i class="fas fa-pen"></i></a>
-                                <a href=""><i class="fas fa-trash"></i></a>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="update.php?id=<?php echo $res['id'] ?>" class="mx-4"><i class="fas fa-pen"></i></a>
+                                <a href="delete.php?id=<?php echo $res['id'] ?>"><i class="fas fa-trash"></i></a>
                             </div>
                         </td>
                     </tr>
